@@ -68,12 +68,16 @@
 }
 
 .text-list {
-	color: #00225A;
+	color: #ffffff;
 	font-family: 'Poppins', sans-serif;
 }
 
 .text-list:hover {
 	color: #b42832	
+}
+
+h3 {
+	margin-top:1rem;
 }
 
 .text-center {
@@ -193,7 +197,7 @@
 
 .footer {
     padding-bottom: 1.2rem;
-	background-color: #00225A
+	background-color: #b42832
 }
 
 footer.footer {
@@ -222,13 +226,16 @@ footer.footer {
 #content-mobile {
     display: none;
 }
+.text-alt {
+	color:#ffffff !important;
+}
 
 #resources {
-	background-color:#c4c4c4;
+	background-color:#00225a;
 }
 
 #research {
-	background-color:#c4c4c4;
+	background-color:#00225a;
 }
 
 #navbarSupportedContent
