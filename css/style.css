@@ -1,3 +1,14 @@
+.nav-link {
+	margin-left: 3rem;
+	margin-right: 3rem;
+	color: #ffffff;
+}
+
+.navbar {
+	background-color: #9E4148;
+}
+
+
 .jumbotron {
     background-size: 100% 100%;
     background-image: linear-gradient(
@@ -40,19 +51,40 @@
 
 .header-text {
     color: #ffffff;
+	font-family: 'Poppins', sans-serif;
+	text-align: center;
+	letter-spacing: 10px;
 }
 
 .subheader-text {
 	color: #ffffff;
+	font-family: 'Poppins', sans-serif;
+	text-align: center;
 }
 
 .text-body {
 	color: #00225A;
+	font-family: 'Poppins', sans-serif;
+}
+
+.text-list {
+	color: #00225A;
+	font-family: 'Poppins', sans-serif;
+}
+
+.text-list:hover {
+	color: #b42832	
 }
 
 .text-center {
 	text-align: center;
+	font-family: 'Poppins', sans-serif;
+	font-variant: small-caps;
+	color: #B42832;
+	font-size: 40px;
 }
+
+
 
 .skills-icon {
     color: #8c93d1 !important;
@@ -103,11 +135,52 @@
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
     text-align: center;
+	font-family: 'Poppins', sans-serif;
+}
+
+.paula {
+	padding-top: 0.5rem;
+	padding-left: 5rem;
+	padding-right: 7rem;
+	padding-bottom: 7rem;
+}
+
+.headshot {
+	padding-top: 0.5rem;
+	padding-left: 2.5rem;
+	padding-right: 3rem;
+}
+
+.groupshot {
+	padding-top:0.5rem;
+	padding-bottom:3rem;
+	padding-right:4rem;
+	padding-left: 2rem;
+}
+
+.resources {
+	padding-bottom:4rem;
+	padding-right:4rem;
+	padding-left:4rem;
+}
+
+.col-md-6 {
+	margin-bottom:3rem;
+	margin-top: 3rem;
 }
 
 .d-block {
 	align-content: center;
+	text-align:center;
 	width: 500px;
+}
+
+.btn {
+	background-color: #00225a;
+}
+
+.please-work {
+	text-align: center;
 }
 
 .col-xs-12 {
@@ -120,10 +193,23 @@
 
 .footer {
     padding-bottom: 1.2rem;
+	background-color: #00225A
 }
 
 footer.footer {
     padding-top: 1rem;
+}
+
+.text-lg-left {
+	color: #ffffff;
+}
+
+.btn-light {
+	color: #b42832;
+}
+
+.btn-social {
+	color: #b42832;
 }
 
 .background-blue {
@@ -136,6 +222,24 @@ footer.footer {
 #content-mobile {
     display: none;
 }
+
+#resources {
+	background-color:#c4c4c4;
+}
+
+#research {
+	background-color:#c4c4c4;
+}
+
+#navbarSupportedContent
+.carousel-control-next-icon {
+	color: #b42832;
+}
+
+.carousel-inner img {
+  margin: auto;
+}
+
 
 .robot-arm {
     padding-top: 0.5rem;
