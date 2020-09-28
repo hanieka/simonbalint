@@ -20,6 +20,9 @@
             rgba(0, 34, 90, 1)
         ),
         url(../img/sports.jpg);
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	-o-background-size:cover;
     height: 45rem;
     background-attachment: fixed;
     background-position: center;
