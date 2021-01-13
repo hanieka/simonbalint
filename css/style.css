@@ -4,27 +4,32 @@
 	overflow-x: hidden;
 }
 .nav-link {
-    margin-left: 3rem;
+    margin-left: 0rem;
     margin-right: 3rem;
-    color: #ffffff;
+	padding: 0,0,0,0;
+    color: #0011a4c;
 }
 
 .navbar {
-    background-color: #9e4148;
+    background-color: transparent;
+}
+
+.nav-item .nav-text {
+	text-align: right;
 }
 
 .jumbotron {
     background-size: 100% 100%;
     background-image: linear-gradient(
             to bottom,
-            rgba(0, 34, 90, 0.4),
-            rgba(0, 34, 90, 1)
+            rgba(0, 34, 90, 0),
+            rgba(0, 34, 90, 0)
         ),
-        url(../img/sports.jpg);
+        url(../img/header.jpg);
 	-webkit-background-size:cover;
 	-moz-background-size:cover;
 	-o-background-size:cover;
-    height: 45rem;
+    height: 50rem;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -37,13 +42,14 @@
 }
 
 .background-blue {
-    background-color: #a9d8eb;
+    background-color: #1c50a3;
 }
 
 .page-section {
     padding-top: 3rem;
     padding-bottom: 5rem;
 }
+
 
 .parallax-window {
     background-image: url("../img/wall.jpg");
@@ -56,31 +62,43 @@
     background-size: cover;
 }
 
+.logo {
+	padding-left: 0;
+	padding-right: 15px;
+	max-width: 50%;
+}
+
 .header-text {
-    color: #ffffff;
-    font-family: "Poppins", sans-serif;
-    text-align: center;
+    color: #011a4c;
+    font-family: "Lato", sans-serif;
+	font-weight: 900;
+    text-align: left;
     letter-spacing: 10px;
+	margin-top: 60px !important;
+	margin-bottom: 30px !important;
 }
 
 .subheader-text {
-    color: #ffffff;
-    font-family: "Poppins", sans-serif;
-    text-align: center;
+    color: #011a4c;
+    font-family: "Quicksand", sans-serif;
+    text-align: left;
 }
 
 .text-body {
-    color: #00225a;
-    font-family: "Poppins", sans-serif;
+    color: #011a4c;
+    font-family: "Quicksand", sans-serif;
+	font-size: 22px;
 }
 
 .text-list {
     color: #ffffff;
-    font-family: "Poppins", sans-serif;
+    font-family: "Quicksand", sans-serif;
+	font-size: 22px;
+	margin: 10px 320px;
 }
 
 .text-list:hover {
-    color: #b42832;
+    color: #1c50a3;
 }
 
 h3 {
@@ -89,22 +107,34 @@ h3 {
 
 .text-center {
     text-align: center;
-    font-family: "Poppins", sans-serif;
+    font-family: "Lato", sans-serif;
+	font-weight: 900;
     font-variant: small-caps;
-    color: #b42832;
-    font-size: 40px;
+    color: #1c50a3;
+    font-size: 60px;
 }
 
+.text-center-blue {
+	text-align: center;
+    font-family: "Lato", sans-serif;
+	font-weight: 900;
+    font-variant: small-caps;
+    color: #f9cf7b;
+    font-size: 60px;
+}
+
+
+
 .skills-icon {
-    color: #8c93d1 !important;
+    color: #afb8c9 !important;
 }
 
 .skills-icon:hover {
-    color: #636aa6 !important;
+    color: #f9cf7b !important;
 }
 
 .popover-body {
-    background-color: #a7aeeb;
+    background-color: #afb8c6;
 }
 
 .bs-popover-right > .arrow::after {
@@ -135,7 +165,7 @@ h3 {
 }
 
 .text {
-    color: white;
+    color: #fff2d7;
     font-size: 20px;
     position: absolute;
     top: 50%;
@@ -144,14 +174,7 @@ h3 {
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
     text-align: center;
-    font-family: "Poppins", sans-serif;
-}
-
-.paula {
-    padding-top: 0.5rem;
-    padding-left: 5rem;
-    padding-right: 7rem;
-    padding-bottom: 7rem;
+    font-family: "Quicksand", sans-serif;
 }
 
 .headshot {
@@ -167,12 +190,6 @@ h3 {
     padding-left: 2rem;
 }
 
-.resources {
-    padding-bottom: 4rem;
-    padding-right: 4rem;
-    padding-left: 4rem;
-}
-
 .col-md-6 {
     margin-bottom: 3rem;
     margin-top: 3rem;
@@ -185,7 +202,7 @@ h3 {
 }
 
 .btn {
-    background-color: #00225a;
+    background-color: #011a4c;
 }
 
 .please-work {
@@ -200,9 +217,14 @@ h3 {
     padding-top: 5rem;
 }
 
+#articles {
+    background-color: #011a4c;
+}
+
+
 .footer {
     padding-bottom: 1.2rem;
-    background-color: #b42832;
+    background-color: #011a4c;
 }
 
 footer.footer {
@@ -213,16 +235,17 @@ footer.footer {
     color: #ffffff;
 }
 
+
 .btn-light {
-    color: #b42832;
+    color: #ac50a3;
 }
 
 .btn-social {
-    color: #b42832;
+    color: #ac50a3;
 }
 
 .background-blue {
-    background-color: rgb(189, 222, 237);
+    background-color: #afb8c6;
 }
 
 .content-desktop {
@@ -232,19 +255,23 @@ footer.footer {
     display: none;
 }
 .text-alt {
-    color: #ffffff !important;
+    color: #fff2d7 !important;
+}
+
+.portfolio {
+    padding-left: 105px;
 }
 
 #resources {
-    background-color: #00225a;
+    background-color: #011a4c;
 }
 
 #research {
-    background-color: #00225a;
+    background-color: #011a4c;
 }
 
 #navbarSupportedContent .carousel-control-next-icon {
-    color: #b42832;
+    color: #1c50a3;
 }
 .col-centered {
     float: none;
@@ -365,9 +392,6 @@ footer.footer {
         padding-left: 1rem;
     }
 	
-	.paula {
-		padding:0.5rem;
-	}
 	
 	.text-body {
 		padding: 0rem;
