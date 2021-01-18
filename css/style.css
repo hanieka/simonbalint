@@ -112,6 +112,7 @@ h3 {
     font-variant: small-caps;
     color: #1c50a3;
     font-size: 60px;
+	margin-bottom: 50px;
 }
 
 .text-center-blue {
@@ -259,7 +260,7 @@ footer.footer {
 }
 
 .portfolio {
-    padding-left: 105px;
+    padding-left: 0px;
 }
 
 #resources {
