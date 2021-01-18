@@ -112,6 +112,7 @@ h3 {
     font-variant: small-caps;
     color: #1c50a3;
     font-size: 60px;
+	margin-bottom: 50px;
 }
 
 .text-center-blue {
@@ -259,7 +260,7 @@ footer.footer {
 }
 
 .portfolio {
-    padding-left: 105px;
+    padding-left: 0px;
 }
 
 #resources {
@@ -413,21 +414,7 @@ footer.footer {
 	.btn {
 		text-align: center;
 	}
-	
-	.jumbotron {
-    background-size: 100% 100%;
-    background-image: linear-gradient(
-            to bottom,
-            rgba(32, 92, 148, 0),
-            rgba(0, 34, 90, 0)
-        ),
-        url("../img/header.jpg");
-    height: 45rem;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-	}
+
 	
 	.jumbo-text{ 
 		padding-top: 4rem;
