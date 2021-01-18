@@ -1,29 +1,28 @@
 // Within style tags in your html file
-* {
-    box-sizing: border-box;
-}
+* { box-sizing: border-box; }
 
 .grid:after {
-    content: "";
-    display: block;
-    clear: both;
+  content: '';
+  display: block;
+  clear: both;
 }
 
 .grid-sizer,
 .grid-item {
-    width: 23%;
+  width: 33.333%;
+	padding:5px;
 }
 @media (max-width: 575px) {
-    .grid-sizer,
-    .grid-item {
-        width: 100%;
-    }
+  .grid-sizer,
+  .grid-item {
+    width: 100%;
+  }
 }
 @media (min-width: 576px) and (max-width: 767px) {
-    .grid-sizer,
-    .grid-item {
-        width: 50%;
-    }
+  .grid-sizer,
+  .grid-item {
+    width: 50%;
+  }
 }
 
 /* To change the amount of columns on larger devices, uncomment the code below */
@@ -48,21 +47,10 @@
 } */
 
 .grid-item {
-    float: left;
-    border: 5px solid white;
-    border-color: white;
+  float: left;
 }
 
 .grid-item img {
-    display: block;
-    max-width: 100%;
-}
-
-.image {
-    opacity: 1;
-    display: block;
-    width: 100%;
-    height: auto;
-    transition: 0.5s ease;
-    backface-visibility: hidden;
+  display: block;
+  max-width: 100%;
 }
