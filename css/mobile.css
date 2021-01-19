@@ -1,5 +1,14 @@
 @media only screen and (max-width: 600px) {
-    .header {
+   
+	.html .body {
+  overflow-x: hidden;
+	}
+	
+	.body {
+  position: relative
+	}
+	
+	.header {
         height: 50vh;
     }
 	
