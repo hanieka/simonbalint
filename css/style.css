@@ -1,8 +1,18 @@
 .html {
-	height: 100%;
-	width: 100%;
-	overflow-x: hidden;
+	width: 100% !important;
+	overflow-x: hidden !important;
 }
+
+.card-columns {
+	width: 100% !important;
+	overflow-x: hidden !important;
+}
+
+.container { 
+	overflow-x:hidden; 
+	width:100%; 
+}
+
 .nav-link {
     margin-left: 0rem;
     margin-right: 3rem;
